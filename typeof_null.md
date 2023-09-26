@@ -39,9 +39,9 @@ Ao longo dos anos, esse enigma continuou a desafiar os programadores JavaScript,
 Então, por que typeof null retorna "object", mas null instanceof Object retorna "false"? É uma peculiaridade histórica da linguagem JavaScript que foi mantida por razões de compatibilidade. O typeof verifica como o valor é representado internamente, enquanto o instanceof verifica a herança de protótipo. Como null não possui um protótipo, o instanceof retorna "false". É uma anomalia da linguagem que os desenvolvedores precisam estar cientes ao trabalhar com JavaScript.
 
 ## Referências:
-[ECMA: The typeof Operator](https://262.ecma-international.org/5.1/#sec-11.4.3)
-[ECMA: The instanceof Operator](https://262.ecma-international.org/5.1/#sec-11.8.6)
-[stackoverflow: Why is typeof null "object"?](https://stackoverflow.com/questions/18808226/why-is-typeof-null-object)
-[Mozilla documentation](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof)
-[The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html)
-[Proposal for typeof null === 'null'](https://web.archive.org/web/20160331031419/http://wiki.ecmascript.org:80/doku.php?id=harmony:typeof_null)
+[ECMA: The typeof Operator](https://262.ecma-international.org/5.1/#sec-11.4.3) <br>
+[ECMA: The instanceof Operator](https://262.ecma-international.org/5.1/#sec-11.8.6)<br>
+[stackoverflow: Why is typeof null "object"?](https://stackoverflow.com/questions/18808226/why-is-typeof-null-object)<br>
+[Mozilla documentation](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/typeof)<br>
+[The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html)<br>
+[Proposal for typeof null === 'null'](https://web.archive.org/web/20160331031419/http://wiki.ecmascript.org:80/doku.php?id=harmony:typeof_null)<br>
